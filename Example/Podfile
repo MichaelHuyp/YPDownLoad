@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YPDownload_Example' do
+  pod 'YPDownload', :path => '../'
+
+  target 'YPDownload_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
