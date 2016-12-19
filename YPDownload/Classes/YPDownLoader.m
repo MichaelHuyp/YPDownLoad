@@ -120,7 +120,7 @@
     
     // 1.首先判断本地有没有下载好,如果下载好了 直接返回文件信息
     if ([YPDownLoaderFileManager isFileExists:self.cacheFilePath]) {
-        YPLog(@"文件已经下载完毕,需要返回文件路径,文件的信息");
+        NSLog(@"文件已经下载完毕,需要返回文件路径,文件的信息");
         self.state = YPDownLoaderStateSuccess;
         
         return;
@@ -181,7 +181,7 @@
 didReceiveResponse:(NSURLResponse *)response
  completionHandler:(void (^)(NSURLSessionResponseDisposition disposition))completionHandler
 {
-    YPLog(@"接受到响应");
+    NSLog(@"接受到响应");
     
     // 拿到文件总大小
     NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
@@ -199,7 +199,7 @@ didReceiveResponse:(NSURLResponse *)response
     
     // 如果本地缓存大小 == 文件总大小 说明下载完成 -> 将临时路径下的文件移动到cache路径下
     if (_tempFileSize == _totalFileSize) {
-        YPLog(@"文件已经下载完成,移动数据");
+        NSLog(@"文件已经下载完成,移动数据");
         [YPDownLoaderFileManager moveFile:self.tempFilePath toPath:self.cacheFilePath];
         self.state = YPDownLoaderStateSuccess;
         // 取消请求
@@ -210,7 +210,7 @@ didReceiveResponse:(NSURLResponse *)response
     
     // 临时文件大小大于文件总大小 说明下载出错了
     if (_tempFileSize > _totalFileSize) {
-        YPLog(@"缓存有问题,删除缓存,重新下载");
+        NSLog(@"缓存有问题,删除缓存,重新下载");
         // 删除缓存
         [YPDownLoaderFileManager removeFileAtPath:self.tempFilePath];
         
@@ -253,11 +253,11 @@ didReceiveResponse:(NSURLResponse *)response
     self.outputStream = nil;
     
     if (!error) {
-        YPLog(@"下载完毕,成功");
+        NSLog(@"下载完毕,成功");
         [YPDownLoaderFileManager moveFile:self.tempFilePath toPath:self.cacheFilePath];
         self.state = YPDownLoaderStateSuccess;
     } else {
-        YPLog(@"有错误");
+        NSLog(@"有错误");
         self.state = YPDownLoaderStateFailed;
         if(self.failureBlock) {
             self.failureBlock(error);
