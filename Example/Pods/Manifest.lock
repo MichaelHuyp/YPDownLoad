@@ -1,0 +1,16 @@
+PODS:
+  - YPDownload (0.1.0)
+
+DEPENDENCIES:
+  - YPDownload (from `../`)
+
+EXTERNAL SOURCES:
+  YPDownload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPDownload: 505b0c93ab846ebd9c04e10d9ec51d16cf018ca2
+
+PODFILE CHECKSUM: a290ed754a63b0e8d8f1ccc4ac00de4ddca4a841
+
+COCOAPODS: 1.2.0.beta.1

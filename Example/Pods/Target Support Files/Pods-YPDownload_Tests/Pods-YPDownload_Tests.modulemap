@@ -1,0 +1,6 @@
+framework module Pods_YPDownload_Tests {
+  umbrella header "Pods-YPDownload_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
