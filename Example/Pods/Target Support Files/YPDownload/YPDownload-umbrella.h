@@ -10,10 +10,10 @@
 #endif
 #endif
 
-#import "NSString+XMGDownLoader.h"
-#import "XMGDownLoader.h"
-#import "XMGDownLoaderFileTool.h"
-#import "XMGDownLoadManager.h"
+#import "NSString+YPDownLoader.h"
+#import "YPDownLoader.h"
+#import "YPDownLoaderFileManager.h"
+#import "YPDownLoadManager.h"
 
 FOUNDATION_EXPORT double YPDownloadVersionNumber;
 FOUNDATION_EXPORT const unsigned char YPDownloadVersionString[];

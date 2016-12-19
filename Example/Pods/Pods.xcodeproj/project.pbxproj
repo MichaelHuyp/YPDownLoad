@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146923DAFD5019DEBAB807684BA0C711 /* YPDownLoaderFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4D8E830F32BEB976BAB9F273809A45 /* YPDownLoaderFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		168606D9C28A108518CCC726905B6517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1FC2C02CF301E5C5D4AB7D727C03BC4C /* YPDownload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4D710C531412C35B6E32BE5235D71D /* YPDownload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B3C24D45A91E075C3546DBD9FE934E /* NSString+YPDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 72171337744C2683BA62CBF92431F59A /* NSString+YPDownLoader.m */; };
 		2CCDF74C82592960D2948BA608B766F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		573094629F4563B7629B7F5CDE8ED046 /* NSString+XMGDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB21B020583F2C4256D083ED7FD68B5 /* NSString+XMGDownLoader.m */; };
-		5F56CC0D33C9DFDEA5B2E30F585D0D4A /* XMGDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C86EE420A61E4E4E130F2909AD6F91 /* XMGDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1EB8E593BD6378F86547C8B4112A8B /* YPDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACF62F3ED3D5A7485F665803E7A7A94 /* YPDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A2AC749C1926E1AB11D95518CBD240 /* YPDownload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EE1C3B9847D4F60F6823363954373 /* YPDownload-dummy.m */; };
 		804A0382722CEED704482D6B34005FB8 /* Pods-YPDownload_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B76F41B01E689485D5A198F5FDBD04F0 /* Pods-YPDownload_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80F60983E415B4E0C8452DAC2D1A70D7 /* XMGDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29839457E2814940F1881689FE049485 /* XMGDownLoadManager.m */; };
-		8403F62D8693CDD07C59FA6867DFF8AC /* XMGDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3201103B1397C7033535E04037D0E370 /* XMGDownLoader.m */; };
+		A1132D28FFE2A8B0F882CD53F2571524 /* NSString+YPDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA40198FC8AE24A0A473C34D379ABD3 /* NSString+YPDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB83BCFCE347D68FE9D811A6EE5D8A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		AF78D2927B2343DCE473023F31CE6A93 /* XMGDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4411DE596D9E2EE728E6CD5951CCB1 /* XMGDownLoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1F652F52CD66B9889927E3C175D4936 /* XMGDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5314AC0F25756D30FBC2AA0CCEA34DCB /* XMGDownLoaderFileTool.m */; };
+		B962FF174314EAF07F378122370E26A4 /* YPDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C9A5D4D60DFBBFD29BB61FFC63D004 /* YPDownLoadManager.m */; };
 		BC30B9201ABE6CB651D8E122B10075DB /* Pods-YPDownload_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FA77AC1C94D3B7B8D7299050DB1C8 /* Pods-YPDownload_Example-dummy.m */; };
 		CA188FA24EC2B26573D27D6038AA8AA2 /* Pods-YPDownload_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA321735B572A4D2CC331E80C8234A /* Pods-YPDownload_Tests-dummy.m */; };
+		CF6825AFB90394DE14B4503A886EA957 /* YPDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DABF26C073EA5CB8EA7523EB3DA21 /* YPDownLoader.m */; };
 		D4717EC1426D23AAEDA44BA12327A898 /* Pods-YPDownload_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E5AF544385BB9087908DE0B25D6BB9 /* Pods-YPDownload_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6D8102D515FD71D3D40AC40E73388F3 /* XMGDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CF54B628BF06E8FB4D89D8789C4249 /* XMGDownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E81F0C5846E4BB5BA9FD504EC739E0CA /* YPDownload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EE1C3B9847D4F60F6823363954373 /* YPDownload-dummy.m */; };
-		ED9A460D936454FC0C6A80FFAC8A0B49 /* YPDownload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4D710C531412C35B6E32BE5235D71D /* YPDownload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF4B23F704192164A447840336B8A693 /* NSString+XMGDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A224EC0F9E1B490482CE0F459D58EE4 /* NSString+XMGDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3A6DBD5A4059AC38F281D06FFE5F75 /* YPDownLoaderFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 348967F73CC6035F1CDB86665B04BA3D /* YPDownLoaderFileManager.m */; };
+		F012E60C022FC2A26A17458A08A0CE05 /* YPDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BF54F546B37F1E2E85D760B5D87E0F11 /* YPDownLoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,34 +37,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A224EC0F9E1B490482CE0F459D58EE4 /* NSString+XMGDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XMGDownLoader.h"; sourceTree = "<group>"; };
+		0BA40198FC8AE24A0A473C34D379ABD3 /* NSString+YPDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+YPDownLoader.h"; sourceTree = "<group>"; };
 		15AE569340EFB86769FB904FFFFDBFC1 /* Pods-YPDownload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDownload_Example.release.xcconfig"; sourceTree = "<group>"; };
 		26E5AF544385BB9087908DE0B25D6BB9 /* Pods-YPDownload_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPDownload_Example-umbrella.h"; sourceTree = "<group>"; };
-		29839457E2814940F1881689FE049485 /* XMGDownLoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoadManager.m; sourceTree = "<group>"; };
 		2B4FA77AC1C94D3B7B8D7299050DB1C8 /* Pods-YPDownload_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPDownload_Example-dummy.m"; sourceTree = "<group>"; };
-		3201103B1397C7033535E04037D0E370 /* XMGDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoader.m; sourceTree = "<group>"; };
+		30C9A5D4D60DFBBFD29BB61FFC63D004 /* YPDownLoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPDownLoadManager.m; sourceTree = "<group>"; };
+		348967F73CC6035F1CDB86665B04BA3D /* YPDownLoaderFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPDownLoaderFileManager.m; sourceTree = "<group>"; };
 		3667162CDC4B7E860236EC370B186A3E /* Pods-YPDownload_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDownload_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		377749669DD5D4CD2655215389DC9970 /* YPDownload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPDownload-prefix.pch"; sourceTree = "<group>"; };
 		4595C3F32E9404288DDF26869899567C /* Pods-YPDownload_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPDownload_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D02E43DE1585C454B2B278162AE3287 /* Pods_YPDownload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YPDownload_Example.framework; path = "Pods-YPDownload_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5314AC0F25756D30FBC2AA0CCEA34DCB /* XMGDownLoaderFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoaderFileTool.m; sourceTree = "<group>"; };
-		53CF54B628BF06E8FB4D89D8789C4249 /* XMGDownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGDownLoaderFileTool.h; sourceTree = "<group>"; };
 		57CBA91B1D55F22781A16C24BB4AE5CE /* Pods-YPDownload_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPDownload_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		59B7B153868F8E858DE5DBB142FB0692 /* YPDownload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YPDownload.modulemap; sourceTree = "<group>"; };
-		5EB21B020583F2C4256D083ED7FD68B5 /* NSString+XMGDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMGDownLoader.m"; sourceTree = "<group>"; };
-		60C86EE420A61E4E4E130F2909AD6F91 /* XMGDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGDownLoader.h; sourceTree = "<group>"; };
-		6C4411DE596D9E2EE728E6CD5951CCB1 /* XMGDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGDownLoadManager.h; sourceTree = "<group>"; };
+		72171337744C2683BA62CBF92431F59A /* NSString+YPDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+YPDownLoader.m"; sourceTree = "<group>"; };
 		82BC94D1E7EF77EC21808CF57E4DA352 /* YPDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YPDownload.framework; path = YPDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EE034019FC0BF2BF58D7A309228B4A /* Pods-YPDownload_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPDownload_Tests-resources.sh"; sourceTree = "<group>"; };
+		8ACF62F3ED3D5A7485F665803E7A7A94 /* YPDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPDownLoader.h; sourceTree = "<group>"; };
 		92E3518CAF744D907B878B2AFAF75E16 /* Pods-YPDownload_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPDownload_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9628DA75C738FC4B15ED7A3AF9F408C7 /* Pods-YPDownload_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPDownload_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D4D710C531412C35B6E32BE5235D71D /* YPDownload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPDownload-umbrella.h"; sourceTree = "<group>"; };
 		9E4DC304EFA99E3B3765AD035B418483 /* Pods-YPDownload_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPDownload_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A81DABF26C073EA5CB8EA7523EB3DA21 /* YPDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPDownLoader.m; sourceTree = "<group>"; };
 		B048AE04832DC07F0881A47CE18FEC68 /* YPDownload.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPDownload.xcconfig; sourceTree = "<group>"; };
 		B3AFC89F174B80079C80550749B07301 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B76F41B01E689485D5A198F5FDBD04F0 /* Pods-YPDownload_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPDownload_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BBCFEDE9E790F645D4A3C43ABC6BA543 /* Pods-YPDownload_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YPDownload_Example.modulemap"; sourceTree = "<group>"; };
+		BF54F546B37F1E2E85D760B5D87E0F11 /* YPDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPDownLoadManager.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDDA321735B572A4D2CC331E80C8234A /* Pods-YPDownload_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPDownload_Tests-dummy.m"; sourceTree = "<group>"; };
 		CEF97D5D6B40615F0175064F76EA5114 /* Pods-YPDownload_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDownload_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		DBF7DFD1EA613B53F65C33F2745EAF1E /* Pods-YPDownload_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDownload_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E59365700391CB235398B896E4B507E5 /* Pods_YPDownload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YPDownload_Tests.framework; path = "Pods-YPDownload_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B40B92BF1502654AD8E37997F62F18 /* Pods-YPDownload_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YPDownload_Tests.modulemap"; sourceTree = "<group>"; };
+		EF4D8E830F32BEB976BAB9F273809A45 /* YPDownLoaderFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPDownLoaderFileManager.h; sourceTree = "<group>"; };
 		F026B24980B23E95AE09F0736C9556C7 /* Pods-YPDownload_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPDownload_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F303787A7DFBDF97CF07ED6F65F24767 /* Pods-YPDownload_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPDownload_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,23 +119,23 @@
 		3FA82A5BE824E8F166629BE947AA24E5 /* YPDownload */ = {
 			isa = PBXGroup;
 			children = (
-				4A3FB58BF3B1235956DC9E06B8318602 /* Classes */,
+				62CBD5913ABB9ACFF099622D210A4299 /* Classes */,
 			);
 			name = YPDownload;
 			path = YPDownload;
 			sourceTree = "<group>";
 		};
-		4A3FB58BF3B1235956DC9E06B8318602 /* Classes */ = {
+		62CBD5913ABB9ACFF099622D210A4299 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0A224EC0F9E1B490482CE0F459D58EE4 /* NSString+XMGDownLoader.h */,
-				5EB21B020583F2C4256D083ED7FD68B5 /* NSString+XMGDownLoader.m */,
-				60C86EE420A61E4E4E130F2909AD6F91 /* XMGDownLoader.h */,
-				3201103B1397C7033535E04037D0E370 /* XMGDownLoader.m */,
-				53CF54B628BF06E8FB4D89D8789C4249 /* XMGDownLoaderFileTool.h */,
-				5314AC0F25756D30FBC2AA0CCEA34DCB /* XMGDownLoaderFileTool.m */,
-				6C4411DE596D9E2EE728E6CD5951CCB1 /* XMGDownLoadManager.h */,
-				29839457E2814940F1881689FE049485 /* XMGDownLoadManager.m */,
+				0BA40198FC8AE24A0A473C34D379ABD3 /* NSString+YPDownLoader.h */,
+				72171337744C2683BA62CBF92431F59A /* NSString+YPDownLoader.m */,
+				8ACF62F3ED3D5A7485F665803E7A7A94 /* YPDownLoader.h */,
+				A81DABF26C073EA5CB8EA7523EB3DA21 /* YPDownLoader.m */,
+				EF4D8E830F32BEB976BAB9F273809A45 /* YPDownLoaderFileManager.h */,
+				348967F73CC6035F1CDB86665B04BA3D /* YPDownLoaderFileManager.m */,
+				BF54F546B37F1E2E85D760B5D87E0F11 /* YPDownLoadManager.h */,
+				30C9A5D4D60DFBBFD29BB61FFC63D004 /* YPDownLoadManager.m */,
 			);
 			name = Classes;
 			path = Classes;
@@ -248,6 +248,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1E3B28305D24DDC6364D63E407F9B321 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1132D28FFE2A8B0F882CD53F2571524 /* NSString+YPDownLoader.h in Headers */,
+				1FC2C02CF301E5C5D4AB7D727C03BC4C /* YPDownload-umbrella.h in Headers */,
+				3C1EB8E593BD6378F86547C8B4112A8B /* YPDownLoader.h in Headers */,
+				146923DAFD5019DEBAB807684BA0C711 /* YPDownLoaderFileManager.h in Headers */,
+				F012E60C022FC2A26A17458A08A0CE05 /* YPDownLoadManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7348C6DB6016586F767ED620D54550C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,18 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				804A0382722CEED704482D6B34005FB8 /* Pods-YPDownload_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB160E1CFFAAE628E21D1347AB80ADEC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF4B23F704192164A447840336B8A693 /* NSString+XMGDownLoader.h in Headers */,
-				5F56CC0D33C9DFDEA5B2E30F585D0D4A /* XMGDownLoader.h in Headers */,
-				D6D8102D515FD71D3D40AC40E73388F3 /* XMGDownLoaderFileTool.h in Headers */,
-				AF78D2927B2343DCE473023F31CE6A93 /* XMGDownLoadManager.h in Headers */,
-				ED9A460D936454FC0C6A80FFAC8A0B49 /* YPDownload-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +318,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92F6252720C6DA468B725B1B6C268C07 /* Build configuration list for PBXNativeTarget "YPDownload" */;
 			buildPhases = (
-				DA83AA24C4BD911CDF78C69F7B533A00 /* Sources */,
+				C5D99B716D2598B5D7884C6B480ACE9C /* Sources */,
 				C73C576EA8AE3257F35D40B36F313750 /* Frameworks */,
-				FB160E1CFFAAE628E21D1347AB80ADEC /* Headers */,
+				1E3B28305D24DDC6364D63E407F9B321 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -368,23 +368,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5D99B716D2598B5D7884C6B480ACE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B3C24D45A91E075C3546DBD9FE934E /* NSString+YPDownLoader.m in Sources */,
+				79A2AC749C1926E1AB11D95518CBD240 /* YPDownload-dummy.m in Sources */,
+				CF6825AFB90394DE14B4503A886EA957 /* YPDownLoader.m in Sources */,
+				EC3A6DBD5A4059AC38F281D06FFE5F75 /* YPDownLoaderFileManager.m in Sources */,
+				B962FF174314EAF07F378122370E26A4 /* YPDownLoadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3135104C7CE7371F27FE3934E339137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CA188FA24EC2B26573D27D6038AA8AA2 /* Pods-YPDownload_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA83AA24C4BD911CDF78C69F7B533A00 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				573094629F4563B7629B7F5CDE8ED046 /* NSString+XMGDownLoader.m in Sources */,
-				8403F62D8693CDD07C59FA6867DFF8AC /* XMGDownLoader.m in Sources */,
-				B1F652F52CD66B9889927E3C175D4936 /* XMGDownLoaderFileTool.m in Sources */,
-				80F60983E415B4E0C8452DAC2D1A70D7 /* XMGDownLoadManager.m in Sources */,
-				E81F0C5846E4BB5BA9FD504EC739E0CA /* YPDownload-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
